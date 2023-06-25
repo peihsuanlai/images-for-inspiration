@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/images-for-inspiration/static/css/main.0c6d1f60.css",
+    "main.js": "/images-for-inspiration/static/js/main.56634e23.js",
+    "index.html": "/images-for-inspiration/index.html",
+    "main.0c6d1f60.css.map": "/images-for-inspiration/static/css/main.0c6d1f60.css.map",
+    "main.56634e23.js.map": "/images-for-inspiration/static/js/main.56634e23.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c6d1f60.css",
+    "static/js/main.56634e23.js"
+  ]
+}
