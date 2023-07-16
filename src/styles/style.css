@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.morePicture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
+.morePicture button {
+  padding: 0.5rem 0.75rem;
+  color: white;
+  font-size: 1.5rem;
+  border: 2px solid rgb(213, 224, 225);
+  border-radius: 20px;
+  background-color: rgb(157, 165, 166);
+  cursor: pointer;
+}
+.morePicture button:hover {
+  border: 2px solid rgb(157, 165, 166);
+  background-color: rgb(213, 224, 225);
+  color: black;
+}
+
+.page404 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+.page404 .back {
+  padding: 5px 10px;
+  text-decoration: none;
+  color: white;
+  margin-top: 15px;
+  border: 1px solid rgb(213, 224, 225);
+  border-radius: 20px;
+  background-color: rgb(157, 165, 166);
+}
+.page404 .back:hover {
+  border: 2px solid rgb(157, 165, 166);
+  background-color: rgb(213, 224, 225);
+  color: black;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: rgba(213, 224, 225, 0.374);
+  min-height: 10vh;
+}
+
+.pictures {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.pictures .picture {
+  width: 400px;
+  padding: 1rem;
+}
+.pictures .picture .imageContainer {
+  overflow: hidden;
+  position: relative;
+  height: 50vh;
+}
+.pictures .picture .imageContainer img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.pictures .picture .imageContainer img:hover {
+  transform: scale(1.25);
+}
+.pictures .picture .imageContainer .updateIcon {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  color: white;
+  cursor: pointer;
+  font-size: 35px;
+  padding: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+.pictures .picture .imageContainer .updateIcon:hover {
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+}
+
+.bg {
+  min-height: 70vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.bg .filter {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 100%;
+  min-height: 70vh;
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+}
+.bg .search {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.bg .search label {
+  position: absolute;
+  top: 0.6rem;
+  left: 10px;
+}
+.bg .search label .icon {
+  color: rgb(157, 165, 166);
+}
+.bg .search input {
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  padding-left: 2.1rem;
+  outline: none;
+  border: 3px solid rgb(157, 165, 166);
+  border-radius: 10px;
+}
+.bg h2 {
+  width: 55%;
+  color: white;
+  padding-left: 0.2rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}/*# sourceMappingURL=style.css.map */

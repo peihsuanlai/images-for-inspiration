@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.morePicture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+
+  button {
+    padding: 0.5rem 0.75rem;
+    color: white;
+    font-size: 1.5rem;
+    border: 2px solid rgba(213, 224, 225);
+    border-radius: 20px;
+    background-color: rgb(157, 165, 166);
+    cursor: pointer;
+    &:hover {
+      border: 2px solid rgb(157, 165, 166);
+      background-color: rgba(213, 224, 225);
+      color: black;
+    }
+  }
+}
+
+.page404 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  .back {
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    margin-top: 15px;
+    border: 1px solid rgba(213, 224, 225);
+    border-radius: 20px;
+    background-color: rgb(157, 165, 166);
+    &:hover {
+      border: 2px solid rgb(157, 165, 166);
+      background-color: rgba(213, 224, 225);
+      color: black;
+    }
+  }
+}
+
+@import "./footer";
+@import "./picture";
+@import "./banner";
